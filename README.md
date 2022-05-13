@@ -1,7 +1,7 @@
 ## How to use the custom loader with NestJS
 
 ```
-npm i @senteca/protobufjs-wrappers
+npm i -S @sentecacommerce/protobufjs-wrappers
 ```
 
 ```typescript
@@ -11,7 +11,7 @@ app.connectMicroservice<MicroserviceOptions>({
     url: '0.0.0.0:443',
     package: 'package.name',
     protoPath: join(__dirname, 'path_to_proto'),
-    protoLoader: '@senteca/protobufjs-wrappers',
+    protoLoader: '@sentecacommerce/protobufjs-wrappers',
   },
 });
 ```

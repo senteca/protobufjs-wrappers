@@ -1,5 +1,5 @@
 {
-  "name": "@senteca/protobufjs-wrappers",
+  "name": "@sentecacommerce/protobufjs-wrappers",
   "version": "1.0.0",
   "description": "Superset of protobuf.js. Add support for few Protocol Buffer wrappers.",
   "main": "dist/index.js",
